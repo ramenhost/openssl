@@ -176,3 +176,13 @@ ENDIF
 # include all the object files that are needed.
 $NULLGOAL=../libcrypto
 SOURCE[$NULLGOAL]=nullprov.c prov_running.c
+
+#
+# Test provider stuff
+#
+# Because the test provider is built in, it means that libcrypto must
+# include all of the object files that are needed, just like the default
+# provider.
+$TESTGOAL=../libcrypto
+SOURCE[$TESTGOAL]=$LIBDEFAULT testprov.c
+INCLUDE[$TESTGOAL]=implementations/include
