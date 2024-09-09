@@ -5734,3 +5734,7 @@ EVP_CIPHER_CTX_get_algor                5861	3_4_0	EXIST::FUNCTION:
 EVP_PKEY_CTX_set_algor_params           5862	3_4_0	EXIST::FUNCTION:
 EVP_PKEY_CTX_get_algor_params           5863	3_4_0	EXIST::FUNCTION:
 EVP_PKEY_CTX_get_algor                  5864	3_4_0	EXIST::FUNCTION:
+EVP_CIPHER_can_pipeline                 ?	3_4_0	EXIST::FUNCTION:
+EVP_CipherPipelineInit                  ?	3_4_0	EXIST::FUNCTION:
+EVP_CipherPipelineUpdate                ?	3_4_0	EXIST::FUNCTION:
+EVP_CipherPipelineFinal                 ?	3_4_0	EXIST::FUNCTION:
